@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Men's Fashion Recommender | Rindra Ny Aiko</title>
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Men’s Fashion Recommendation System | Rindra Ny Aiko</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
-
   <header>
     <nav class="navbar">
       <div class="container nav-container">
         <a href="../index.html" class="logo">Rindra Ny Aiko</a>
         <ul class="nav-links">
-          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#home">Home</a></li>
+          <li><a href="../index.html#projects">Projects</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -22,30 +24,26 @@
 
   <main class="section light">
     <div class="container">
-      <h1>Men's Fashion Recommender</h1>
-      <p>This project uses machine learning to recommend stylish outfits based on user preferences and trending fashion items. Built with Streamlit and deployed online for interactive use.</p>
-
-      <h2>Live App</h2>
-      <p><a href="https://mens-fashion-recommender.streamlit.app/" target="_blank">Visit the project here</a></p>
+      <h1>Men’s Fashion Recommendation System</h1>
+      <p class="project-description">
+        Built using FastEmbed and Qdrant, this men’s fashion recommendation system analyzes image embeddings to deliver highly accurate visual outfit suggestions. It goes beyond traditional tag-based methods by comparing actual image features to find similar styles. With integrated user feedback, the system adapts over time to offer personalized recommendations. Efficiently managing thousands of images, it demonstrates practical AI applications in real-time fashion retail solutions.
+      </p>
 
       <h2>Demonstration</h2>
-      <p>Below you can embed a demo video or screenshot. You can replace the placeholder below with your actual content:</p>
-
-      <!-- Replace with actual video or screenshot -->
-      <video controls style="width: 100%; max-width: 800px; margin: 2rem 0;">
-        <source src="../assets/videos/screen-shoot-recommender.mp4" type="video/mp4">
-          Your browser does not support the video tag.
+      <video controls autoplay muted loop style="max-width: 100%; border-radius: 8px; margin: 1.5rem 0;">
+        <source src="../assets/videos/screen-shoot-recommender.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
       </video>
-      
+
+      <h2>Live App</h2>
+      <p><a href="https://mens-fashion-recommender.streamlit.app/" target="_blank" class="btn">Visit the Project</a></p>
     </div>
   </main>
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 Rindra Ny Aiko</p>
+      <p>&copy; 2025 Rindra Ny Aiko. All rights reserved.</p>
     </div>
   </footer>
-
 </body>
 </html>
-
