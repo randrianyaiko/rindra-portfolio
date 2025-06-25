@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Chat with Python Code | Rindra Ny Aiko</title>
-  <link rel="stylesheet" href="../assets/css/style.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
-
   <header>
     <nav class="navbar">
       <div class="container nav-container">
         <a href="../index.html" class="logo">Rindra Ny Aiko</a>
         <ul class="nav-links">
           <li><a href="../index.html#home">Home</a></li>
+          <li><a href="../index.html#projects">Projects</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -23,28 +25,25 @@
   <main class="section light">
     <div class="container">
       <h1>Chat with Python Code</h1>
-      <p>
-        This project implements a Retrieval Augmented Generation (RAG) system that allows users to interactively chat with Python codebases. By integrating vector search over code snippets, users get context-aware code explanations and debugging assistance in real time.
-      </p>
-
-      <h2>Business Value</h2>
-      <p>
-        Developers can rapidly generate documentation and other technical content, accelerating project workflows and improving knowledge sharing within teams.
+      <p class="project-description">
+        This project uses Retrieval Augmented Generation (RAG) techniques to provide an intelligent chat interface for Python code. Developers can interact with their codebase, receive context-aware assistance, and automate documentation and debugging, significantly enhancing productivity through AI-powered code understanding.
       </p>
 
       <h2>Demonstration</h2>
-      <video controls style="width: 100%; max-width: 800px; margin: 2rem 0;">
-        <source src="../assets/videos/screen-shoot-chat-with-python-code.mp4" type="video/mp4">
+      <video controls autoplay muted loop style="max-width: 100%; border-radius: 8px; margin: 1.5rem 0;">
+        <source src="../assets/videos/screen-shoot-chat-with-python-code.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+
+      <h2>Live App</h2>
+      <p><a href="https://chat-with-python-code.streamlit.app/" target="_blank" class="btn">Visit the Project</a></p>
     </div>
   </main>
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 Rindra Ny Aiko</p>
+      <p>&copy; 2025 Rindra Ny Aiko. All rights reserved.</p>
     </div>
   </footer>
-
 </body>
 </html>
